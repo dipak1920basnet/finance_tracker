@@ -1,0 +1,106 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker</title>
+    <link rel="stylesheet" href="{% static 'finance/home.css' %}">
+    <script src="{% static 'finance/home.js' %}"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo glowing-text">
+            <h1>Personal Finance Tracker Of: {{ name }}</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#transactions">Transactions</a></li>
+                <li><a href="#budget">Budgeting</a></li>
+                <li><a href="#reports">Reports</a></li>
+                <li><a href="{% url 'finance:logout' %}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="dashboard">
+        <h2>Welcome to Your Dashboard</h2>
+        <div class="summary">
+            <div class="box income">
+                <h3>Total Income</h3>
+                <p>${{income}}</p>
+            </div>
+            <div class="box expense">
+                <h3>Total Expenses</h3>
+                <p>${{expense}}</p>
+            </div>
+            <div class="box net">
+                <h3>Net Balance</h3>
+                <p>${{balance}}</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="transactions">
+        <h2>Manage Transactions</h2>
+        <form>
+            <input type="number" placeholder="Amount" required>
+            <select required>
+                <option value="">Select Category</option>
+                <option value="food">Food</option>
+                <option value="rent">Rent</option>
+                <option value="salary">Salary</option>
+            </select>
+            <input type="date" required>
+            <textarea placeholder="Description" required></textarea>
+            <select required>
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+            </select>
+            <button type="submit">Add Transaction</button>
+        </form>
+    </section>
+
+    <section id="budget">
+        <h2>Set Monthly Budget</h2>
+        <form>
+            <select required>
+                <option value="">Select Category</option>
+                {% for budget_category in budget_category_list  %}
+                <option value="{{budget_category}}"> {{ budget_category }} </option>
+                {% endfor %}
+            </select>
+            <select name="" id="" required>
+                <option value=""> Choose Month </option>
+                {% for month in budget_month %}
+                    <option value="{{month}}"> {{ month }} </option>
+                {% endfor %}
+            </select>
+            <input type="number" placeholder="Amount" required>
+            <button type="submit">Set Budget</button>
+        </form>
+    </section>
+
+    <section id="reports">
+        <h2>Reports</h2>
+        <div class="report">
+            <div class="pie-chart">Category-wise Breakdown</div>
+            <div class="bar-chart">Weekly Summary</div>
+            <div class="monthly-summary">
+                <h3>Monthly Summary</h3>
+                <p>Total Income: ${{income}}</p>
+                <p>Total Expense: ${{expense}}</p>
+                <p>Net Balance: ${{balance}}</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Personal Finance Tracker</p>
+    </footer>
+</body>
+
+</html>
