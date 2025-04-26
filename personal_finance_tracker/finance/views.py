@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import uuid
 import time 
 import io
-import urllib
+import urllib.parse
 import base64
 import graphviz # For flow chart 
 import os # Delete the image once session is over 
@@ -25,14 +25,14 @@ def pie_chart(data, labels):
         raise Exception("labels and data length mismatched")
     else:
         fig, ax = plt.subplots()
-        ax.pie(data, labels=labels,  autopct='%1.1f%')
+        ax.pie(data, labels=labels,  autopct='%1.1f%%')
         ax.axis('equal')
 
         buf = io.BytesIO()
         plt.savefig(buf, format='png')
         buf.seek(0)
 
-        string = base64.b64eencode(buf.read())
+        string = base64.b64encode(buf.read()).decode()
         uri = urllib.parse.quote(string)
 
         return uri
@@ -40,11 +40,14 @@ def pie_chart(data, labels):
 
 
 def home(request, name):
+
+    if not request.user.is_authenticated:
+        return redirect('finance:login_view')
     # The home page should display the name of logged in user. 
     # 
     name = request.user.username
-    income = 0 #Get the total income of the user
-    expense = 0 #Get the total expense of the user
+    income = 10 #Get the total income of the user
+    expense = 5 #Get the total expense of the user
     balance = income-expense
     
     data = [income,expense,balance]
@@ -58,8 +61,8 @@ def home(request, name):
         if not str(i) == "<Category: Salary>":
             Budget_category_list.append(i)
 
-    if request.user.is_authenticated:
-        return render(request,"finance/home.html",
+    
+    return render(request,"finance/home.html",
                     {
                         "name":(name.lower()).capitalize(),
                         "income":income,
@@ -70,8 +73,7 @@ def home(request, name):
                         'data': pie_chart(data, label)
                         # "budget_category_list":get_budget_category,
                     })
-    else:
-        return redirect('finance:login_view')
+        
 
 def register_view(request, message=None):
     if message != None:
