@@ -1,3 +1,4 @@
+import urllib.parse
 from django.shortcuts import render, redirect
 from django.contrib.auth import logout, authenticate, login
 from django.contrib.auth.decorators import login_required
@@ -6,16 +7,49 @@ from django.db import IntegrityError
 from django.core.validators import validate_email
 from django.core.exceptions import ValidationError
 
+
+# required import to display chart in html and python alone.  
+import matplotlib.pyplot as plt
+import uuid
+import time 
+import io
+import urllib
+import base64
+import graphviz # For flow chart 
+import os # Delete the image once session is over 
+
 # Create your views here.
+
+def pie_chart(data, labels):
+    if len(data) != len(labels):
+        raise Exception("labels and data length mismatched")
+    else:
+        fig, ax = plt.subplots()
+        ax.pie(data, labels=labels,  autopct='%1.1f%')
+        ax.axis('equal')
+
+        buf = io.BytesIO()
+        plt.savefig(buf, format='png')
+        buf.seek(0)
+
+        string = base64.b64eencode(buf.read())
+        uri = urllib.parse.quote(string)
+
+        return uri
+
+
 
 def home(request, name):
     # The home page should display the name of logged in user. 
     # 
     name = request.user.username
-    income = 0
-    expense = 0
+    income = 0 #Get the total income of the user
+    expense = 0 #Get the total expense of the user
     balance = income-expense
     
+    data = [income,expense,balance]
+    label = ["income","expense","balance"]
+
     user_name = User.objects.get(username=name)
     get_budget_category = Category.objects.filter(user=user_name)
     print(get_budget_category)
@@ -32,7 +66,8 @@ def home(request, name):
                         "expense":expense,
                         "balance":balance,
                         "budget_category_list": Budget_category_list,
-                        "budget_month":[i for i in range(1,13)]
+                        "budget_month":[i for i in range(1,13)],
+                        'data': pie_chart(data, label)
                         # "budget_category_list":get_budget_category,
                     })
     else:
