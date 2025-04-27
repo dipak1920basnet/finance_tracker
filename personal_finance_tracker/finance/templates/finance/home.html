@@ -46,9 +46,9 @@
 
     <section id="transactions">
         <h2>Manage Transactions</h2>
-        <form>
+        <form action="{% url 'finance:manage_transactions'%}" method="post">
             <input type="number" placeholder="Amount" required>
-            <select required>
+            <select name="category" required>
                 <option value="">Select Category</option>
                 <option value="food">Food</option>
                 <option value="rent">Rent</option>
@@ -56,7 +56,7 @@
             </select>
             <input type="date" required>
             <textarea placeholder="Description" required></textarea>
-            <select required>
+            <select name="income_expense" required>
                 <option value="income">Income</option>
                 <option value="expense">Expense</option>
             </select>
@@ -66,14 +66,14 @@
 
     <section id="budget">
         <h2>Set Monthly Budget</h2>
-        <form>
-            <select required>
+        <form method="post", action="{% url finance:manage_budget %}">
+            <select name="expense_in" required>
                 <option value="">Select Category</option>
                 {% for budget_category in budget_category_list  %}
                 <option value="{{budget_category}}"> {{ budget_category }} </option>
                 {% endfor %}
             </select>
-            <select name="" id="" required>
+            <select name="month" id="" required>
                 <option value=""> Choose Month </option>
                 {% for month in budget_month %}
                     <option value="{{month}}"> {{ month }} </option>

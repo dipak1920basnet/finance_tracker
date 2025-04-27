@@ -26,7 +26,10 @@ urlpatterns = [
 
     path("register", views.register, name="register"),
     path("login",views.Login, name='login'),
-    path('logout', views.Logout, name="logout")
-    
+    path('logout', views.Logout, name="logout"),
 
+    # working with data 
+
+    path('manage_transactions', views.manage_transaction, name="manage_transactions")
+    
 ]

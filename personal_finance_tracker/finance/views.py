@@ -18,6 +18,23 @@ import base64
 import graphviz # For flow chart 
 import os # Delete the image once session is over 
 
+# required import for errors:
+import traceback
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    filename="finance.log",
+    filemode="a",
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+
+logging.debug("debug")
+logging.info("info")
+logging.warning("warning")
+logging.error("error")
+logging.critical("criticals")
+
 # Create your views here.
 
 def pie_chart(data, labels):
@@ -52,15 +69,26 @@ def home(request, name):
     
     data = [income,expense,balance]
     label = ["income","expense","balance"]
-
-    user_name = User.objects.get(username=name)
-    get_budget_category = Category.objects.filter(user=user_name)
-    print(get_budget_category)
+    
+    try:
+        user_name = User.objects.get(username=name)
+    except User.DoesNotExist:
+        error_message = traceback.format_exc()
+        logging.error(error_message)
+    
+    try:
+        get_budget_category = Category.objects.filter(user=user_name)
+    except UnboundLocalError:
+        error_message = traceback.format_exc()
+        logging.error(error_message)
+    
+    # print(get_budget_category)
     Budget_category_list = []
     for i in get_budget_category:
         if not str(i) == "<Category: Salary>":
             Budget_category_list.append(i)
 
+    # Try getting the data for budget management
     
     return render(request,"finance/home.html",
                     {
@@ -97,6 +125,7 @@ def reset_password(request):
 def Logout(request):
     # if authenticate(request):
     logout(request)
+    logging.info("logged out successfully")
     return redirect('finance:login_view')
     # else:
     #     message = {
@@ -122,7 +151,9 @@ def Login(request):
 
     if for_login:
         login(request, for_login)
-        return redirect("finance:home", username)
+        logging.info("logged in successfully")
+        request.session['username'] = for_login.username
+        return redirect("finance:home", name = for_login.username)
 
 def register(request):
     def display_error_message(name):
@@ -172,4 +203,58 @@ def register(request):
         login(request, for_login)
         return redirect("finance:home")
 
-    
+
+# Receive data for manage Transactions and create, update data
+def manage_transaction(request):
+    if request.method == "post":
+        
+        amount = request.POST.get("amount")
+        category = request.POST.get("category")
+        date = request.POST.get("date")
+        description = request.POST.get("description")
+        income_expense = request.POST.get("income_expense")
+
+    user_name = User.objects.get(request.user.username)
+
+    # Model creation feature is yet to be implemented 
+    if income_expense == "expense":
+        # get the amount from the data 
+        try:
+            current_amount = Transaction.objects.filter(user=user_name).values_list('amount', flat=True)
+        # See the possible exception you will get
+        except Exception:
+            ...
+        if current_amount < amount:
+            message = "The amount is not sufficient"
+        elif current_amount == amount:
+            message = "Your amount is now 0$"
+        else:
+            amount = current_amount - amount
+    try:
+        # Try to check if data already exists
+        ...
+    # See the possible error that might occur here. 
+    except Exception as e:
+        Transaction.objects.create(user=user_name, category=category, amount = amount, date=date, description=description,type=income_expense)
+
+
+def manage_budget(request):
+    user_name = request.user.username
+
+    if request.method == "post":
+
+        expense = request.POST.get("expense_in")
+        month = request.POST.get("month")
+
+    # Check if the data exists in Budgets 
+    # if data exists then update data 
+    try:
+        # retrive data 
+        ...
+    except Exception as e:
+        # if the data does not exist then create it 
+        Budget.objects.create(user=user_name, category = expense, month=month)
+    else:
+        # Update the data
+        # else create data
+        ...
