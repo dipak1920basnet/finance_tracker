@@ -11,6 +11,12 @@
 </head>
 
 <body>
+    {% if messages %}
+    {% for message in messages %}
+        <div>{{ message }}</div>
+    {% endfor %}
+    {% endif %}
+
     <header>
         <div class="logo glowing-text">
             <h1>Personal Finance Tracker Of: {{ name }}</h1>
@@ -47,7 +53,8 @@
     <section id="transactions">
         <h2>Manage Transactions</h2>
         <form action="{% url 'finance:manage_transactions'%}" method="post">
-            <input type="number" placeholder="Amount" required>
+            {% csrf_token %}
+            <input type="number" placeholder="Amount" name="amount" required>
             <select name="category" required>
                 <option value="">Select Category</option>
                 <option value="food">Food</option>
@@ -66,7 +73,8 @@
 
     <section id="budget">
         <h2>Set Monthly Budget</h2>
-        <form method="post", action="{% url finance:manage_budget %}">
+        <form method="post", action="{% url 'finance:manage_budget' %}">
+            {% csrf_token %}
             <select name="expense_in" required>
                 <option value="">Select Category</option>
                 {% for budget_category in budget_category_list  %}

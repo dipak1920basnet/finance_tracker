@@ -30,6 +30,7 @@ urlpatterns = [
 
     # working with data 
 
-    path('manage_transactions', views.manage_transaction, name="manage_transactions")
+    path('manage_transactions', views.manage_transaction, name="manage_transactions"),
+    path('manage_budget',views.manage_budget, name='manage_budget')
     
 ]
