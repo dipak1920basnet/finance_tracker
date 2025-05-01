@@ -300,23 +300,34 @@ def manage_transaction(request):
 
 @login_required
 def manage_budget(request):
-    user_name = request.user.username
+    user_name = request.user
 
     if request.method == "POST":
         expense = request.POST.get("expense_in")
         month = request.POST.get("month")
+        amount = request.POST.get("amount")
 
     # Check if the data exists in Budgets
     # if data exists then update data
     try:
         # retrive data
-        ...
-    except Exception as e:
+        category = Category.objects.get(name=expense)
+    except Category.DoesNotExist:
         # if the data does not exist then create it
-        Budget.objects.create(user=user_name, category=expense, month=month)
-    else:
-        # Update the data
-        # else create data
-        ...
-
-    return redirect("finance:home")
+        messages.error(request, "Selected category does not exist.")
+        return redirect("finance:home", name=user_name)
+    try:
+        budget = Budget.objects.get(user=user_name, category=category, month=month)
+        # If budget exists, update it
+        budget.amount = amount
+        budget.save()
+        messages.success(request, "Budget updated successfully.")
+    except Budget.DoesNotExist:
+        # If it does not exist, create a new budget entry
+        Budget.objects.create(user=user_name, category=category, month=month, amount=amount)
+        messages.success(request, "Budget created successfully.")
+    except Exception as e:
+        logging.error(f"Error managing budget: {traceback.format_exc()}")
+        messages.error(request, "There was an error processing the budget.")
+    
+    return redirect("finance:home", name=user_name.username)

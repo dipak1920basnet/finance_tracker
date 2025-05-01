@@ -1,0 +1,1557 @@
+2025-04-27 16:09:49,486 - INFO - info
+2025-04-27 16:09:49,486 - WARNING - warning
+2025-04-27 16:09:49,486 - ERROR - error
+2025-04-27 16:09:49,486 - CRITICAL - criticals
+2025-04-27 16:10:13,711 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 74, in home
+    user_name = User.objects.get(username=name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+finance.models.User.DoesNotExist: User matching query does not exist.
+
+2025-04-27 16:10:13,744 - ERROR - Internal Server Error: /home/login
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 80, in home
+    get_budget_category = Category.objects.filter(user=user_name)
+                                                       ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'user_name' where it is not associated with a value
+2025-04-27 16:11:46,222 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 16:11:48,059 - INFO - info
+2025-04-27 16:11:48,059 - WARNING - warning
+2025-04-27 16:11:48,059 - ERROR - error
+2025-04-27 16:11:48,059 - CRITICAL - criticals
+2025-04-27 16:11:49,791 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 16:11:51,575 - INFO - info
+2025-04-27 16:11:51,575 - WARNING - warning
+2025-04-27 16:11:51,575 - ERROR - error
+2025-04-27 16:11:51,575 - CRITICAL - criticals
+2025-04-27 16:14:21,527 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 16:14:23,444 - INFO - info
+2025-04-27 16:14:23,444 - WARNING - warning
+2025-04-27 16:14:23,444 - ERROR - error
+2025-04-27 16:14:23,445 - CRITICAL - criticals
+2025-04-27 16:14:49,840 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 74, in home
+    user_name = User.objects.get(username=name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+finance.models.User.DoesNotExist: User matching query does not exist.
+
+2025-04-27 16:14:49,840 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 80, in home
+    get_budget_category = Category.objects.filter(user=user_name)
+                                                       ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'user_name' where it is not associated with a value
+
+2025-04-27 16:14:49,876 - ERROR - Internal Server Error: /home/login
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 85, in home
+    print(get_budget_category)
+          ^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'get_budget_category' where it is not associated with a value
+2025-04-27 16:15:01,752 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 16:15:03,554 - INFO - info
+2025-04-27 16:15:03,554 - WARNING - warning
+2025-04-27 16:15:03,554 - ERROR - error
+2025-04-27 16:15:03,554 - CRITICAL - criticals
+2025-04-27 16:15:05,595 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 74, in home
+    user_name = User.objects.get(username=name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+finance.models.User.DoesNotExist: User matching query does not exist.
+
+2025-04-27 16:15:05,597 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 80, in home
+    get_budget_category = Category.objects.filter(user=user_name)
+                                                       ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'user_name' where it is not associated with a value
+
+2025-04-27 16:15:05,626 - ERROR - Internal Server Error: /home/login
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 87, in home
+    for i in get_budget_category:
+             ^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'get_budget_category' where it is not associated with a value
+2025-04-27 16:23:54,963 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 74, in home
+    user_name = User.objects.get(username=name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+finance.models.User.DoesNotExist: User matching query does not exist.
+
+2025-04-27 16:23:54,963 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 80, in home
+    get_budget_category = Category.objects.filter(user=user_name)
+                                                       ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'user_name' where it is not associated with a value
+
+2025-04-27 16:23:54,984 - ERROR - Internal Server Error: /home/login
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 87, in home
+    for i in get_budget_category:
+             ^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'get_budget_category' where it is not associated with a value
+2025-04-27 16:26:18,444 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 16:26:20,272 - INFO - info
+2025-04-27 16:26:20,272 - WARNING - warning
+2025-04-27 16:26:20,272 - ERROR - error
+2025-04-27 16:26:20,272 - CRITICAL - criticals
+2025-04-27 16:26:22,900 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 74, in home
+    user_name = User.objects.get(username=name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+finance.models.User.DoesNotExist: User matching query does not exist.
+
+2025-04-27 16:26:22,900 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 80, in home
+    get_budget_category = Category.objects.filter(user=user_name)
+                                                       ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'user_name' where it is not associated with a value
+
+2025-04-27 16:26:22,929 - ERROR - Internal Server Error: /home/login
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 87, in home
+    for i in get_budget_category:
+             ^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'get_budget_category' where it is not associated with a value
+2025-04-27 16:27:35,194 - INFO - info
+2025-04-27 16:27:35,194 - WARNING - warning
+2025-04-27 16:27:35,194 - ERROR - error
+2025-04-27 16:27:35,194 - CRITICAL - criticals
+2025-04-27 16:27:38,641 - WARNING - Not Found: /
+2025-04-27 16:27:44,646 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 74, in home
+    user_name = User.objects.get(username=name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+finance.models.User.DoesNotExist: User matching query does not exist.
+
+2025-04-27 16:27:44,647 - ERROR - Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 80, in home
+    get_budget_category = Category.objects.filter(user=user_name)
+                                                       ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'user_name' where it is not associated with a value
+
+2025-04-27 16:27:44,660 - ERROR - Internal Server Error: /home/login
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 87, in home
+    for i in get_budget_category:
+             ^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'get_budget_category' where it is not associated with a value
+2025-04-27 16:30:56,210 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 16:30:58,071 - INFO - info
+2025-04-27 16:30:58,072 - WARNING - warning
+2025-04-27 16:30:58,072 - ERROR - error
+2025-04-27 16:30:58,072 - CRITICAL - criticals
+2025-04-27 16:32:07,070 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 16:32:08,999 - INFO - info
+2025-04-27 16:32:08,999 - WARNING - warning
+2025-04-27 16:32:08,999 - ERROR - error
+2025-04-27 16:32:08,999 - CRITICAL - criticals
+2025-04-27 16:32:16,643 - WARNING - Not Found: /favicon.ico
+2025-04-27 16:32:18,205 - INFO - logged out successfully
+2025-04-27 17:17:48,963 - INFO - logged in successfully
+2025-04-27 17:20:16,878 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:20:19,165 - INFO - info
+2025-04-27 17:20:19,165 - WARNING - warning
+2025-04-27 17:20:19,165 - ERROR - error
+2025-04-27 17:20:19,165 - CRITICAL - criticals
+2025-04-27 17:20:41,069 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:20:43,095 - INFO - info
+2025-04-27 17:20:43,099 - WARNING - warning
+2025-04-27 17:20:43,099 - ERROR - error
+2025-04-27 17:20:43,099 - CRITICAL - criticals
+2025-04-27 17:22:34,772 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:22:36,590 - INFO - info
+2025-04-27 17:22:36,590 - WARNING - warning
+2025-04-27 17:22:36,590 - ERROR - error
+2025-04-27 17:22:36,590 - CRITICAL - criticals
+2025-04-27 17:22:42,566 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:22:44,443 - INFO - info
+2025-04-27 17:22:44,444 - WARNING - warning
+2025-04-27 17:22:44,444 - ERROR - error
+2025-04-27 17:22:44,444 - CRITICAL - criticals
+2025-04-27 17:28:43,981 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:31:31,765 - INFO - info
+2025-04-27 17:31:31,765 - WARNING - warning
+2025-04-27 17:31:31,765 - ERROR - error
+2025-04-27 17:31:31,765 - CRITICAL - criticals
+2025-04-27 17:35:15,275 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:35:17,016 - INFO - info
+2025-04-27 17:35:17,016 - WARNING - warning
+2025-04-27 17:35:17,016 - ERROR - error
+2025-04-27 17:35:17,016 - CRITICAL - criticals
+2025-04-27 17:36:27,403 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:37:55,936 - INFO - info
+2025-04-27 17:37:55,936 - WARNING - warning
+2025-04-27 17:37:55,936 - ERROR - error
+2025-04-27 17:37:55,936 - CRITICAL - criticals
+2025-04-27 17:41:24,815 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:41:26,772 - INFO - info
+2025-04-27 17:41:26,772 - WARNING - warning
+2025-04-27 17:41:26,772 - ERROR - error
+2025-04-27 17:41:26,772 - CRITICAL - criticals
+2025-04-27 17:42:34,771 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:42:36,494 - INFO - info
+2025-04-27 17:42:36,494 - WARNING - warning
+2025-04-27 17:42:36,494 - ERROR - error
+2025-04-27 17:42:36,494 - CRITICAL - criticals
+2025-04-27 17:44:21,489 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:48:11,817 - INFO - info
+2025-04-27 17:48:11,817 - WARNING - warning
+2025-04-27 17:48:11,817 - ERROR - error
+2025-04-27 17:48:11,817 - CRITICAL - criticals
+2025-04-27 17:48:13,533 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:48:15,493 - INFO - info
+2025-04-27 17:48:15,495 - WARNING - warning
+2025-04-27 17:48:15,495 - ERROR - error
+2025-04-27 17:48:15,495 - CRITICAL - criticals
+2025-04-27 17:48:29,050 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-27 17:48:30,833 - INFO - info
+2025-04-27 17:48:30,833 - WARNING - warning
+2025-04-27 17:48:30,833 - ERROR - error
+2025-04-27 17:48:30,833 - CRITICAL - criticals
+2025-04-28 16:27:48,788 - INFO - info
+2025-04-28 16:27:48,788 - WARNING - warning
+2025-04-28 16:27:48,788 - ERROR - error
+2025-04-28 16:27:48,788 - CRITICAL - criticals
+2025-04-28 16:41:36,623 - WARNING - Not Found: /
+2025-04-28 16:41:37,572 - WARNING - Not Found: /favicon.ico
+2025-04-28 17:17:41,990 - ERROR - Internal Server Error: /home/login
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 93, in home
+    return render(request,"finance/home.html",
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\defaulttags.py", line 1421, in url
+    viewname = parser.compile_filter(bits[1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ':manage_budget' from 'finance:manage_budget'
+2025-04-28 17:18:40,992 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\urls.py changed, reloading.
+2025-04-28 17:19:06,204 - INFO - info
+2025-04-28 17:19:06,204 - WARNING - warning
+2025-04-28 17:19:06,204 - ERROR - error
+2025-04-28 17:19:06,204 - CRITICAL - criticals
+2025-04-28 17:19:09,914 - ERROR - Internal Server Error: /home/login
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 93, in home
+    return render(request,"finance/home.html",
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\defaulttags.py", line 1421, in url
+    viewname = parser.compile_filter(bits[1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ':manage_budget' from 'finance:manage_budget'
+2025-04-28 17:19:22,605 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\urls.py changed, reloading.
+2025-04-28 17:19:24,072 - INFO - info
+2025-04-28 17:19:24,072 - WARNING - warning
+2025-04-28 17:19:24,072 - ERROR - error
+2025-04-28 17:19:24,072 - CRITICAL - criticals
+2025-04-28 17:19:27,558 - ERROR - Internal Server Error: /home/login
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 93, in home
+    return render(request,"finance/home.html",
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\defaulttags.py", line 1421, in url
+    viewname = parser.compile_filter(bits[1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 605, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\template\base.py", line 706, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ':manage_budget' from 'finance:manage_budget'
+2025-04-28 17:19:44,608 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\urls.py changed, reloading.
+2025-04-28 17:19:46,227 - INFO - info
+2025-04-28 17:19:46,227 - WARNING - warning
+2025-04-28 17:19:46,227 - ERROR - error
+2025-04-28 17:19:46,227 - CRITICAL - criticals
+2025-04-28 17:23:07,923 - INFO - info
+2025-04-28 17:23:07,923 - WARNING - warning
+2025-04-28 17:23:07,923 - ERROR - error
+2025-04-28 17:23:07,923 - CRITICAL - criticals
+2025-04-28 17:26:57,493 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 17:26:59,214 - INFO - info
+2025-04-28 17:26:59,214 - WARNING - warning
+2025-04-28 17:26:59,214 - ERROR - error
+2025-04-28 17:26:59,214 - CRITICAL - criticals
+2025-04-28 17:27:57,271 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 17:27:58,862 - INFO - info
+2025-04-28 17:27:58,862 - WARNING - warning
+2025-04-28 17:27:58,862 - ERROR - error
+2025-04-28 17:27:58,862 - CRITICAL - criticals
+2025-04-28 17:28:16,870 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 17:28:18,604 - INFO - info
+2025-04-28 17:28:18,604 - WARNING - warning
+2025-04-28 17:28:18,604 - ERROR - error
+2025-04-28 17:28:18,604 - CRITICAL - criticals
+2025-04-28 17:28:26,300 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 17:28:27,886 - INFO - info
+2025-04-28 17:28:27,886 - WARNING - warning
+2025-04-28 17:28:27,886 - ERROR - error
+2025-04-28 17:28:27,886 - CRITICAL - criticals
+2025-04-28 17:28:43,805 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 17:28:45,194 - INFO - info
+2025-04-28 17:28:45,194 - WARNING - warning
+2025-04-28 17:28:45,194 - ERROR - error
+2025-04-28 17:28:45,194 - CRITICAL - criticals
+2025-04-28 17:30:40,717 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 17:30:42,116 - INFO - info
+2025-04-28 17:30:42,116 - WARNING - warning
+2025-04-28 17:30:42,116 - ERROR - error
+2025-04-28 17:30:42,116 - CRITICAL - criticals
+2025-04-28 18:56:11,153 - INFO - info
+2025-04-28 18:56:11,153 - WARNING - warning
+2025-04-28 18:56:11,153 - ERROR - error
+2025-04-28 18:56:11,153 - CRITICAL - criticals
+2025-04-28 18:56:35,814 - WARNING - Forbidden (CSRF token missing.): /manage_transactions
+2025-04-28 18:56:35,937 - WARNING - Not Found: /favicon.ico
+2025-04-28 19:02:38,070 - WARNING - Forbidden (CSRF token missing.): /manage_transactions
+2025-04-28 19:02:53,057 - WARNING - Not Found: /favicon.ico
+2025-04-28 19:03:18,989 - ERROR - Internal Server Error: /manage_transactions
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 219, in manage_transaction
+    user_name = User.objects.get(request.user.username)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1488, in build_filter
+    arg, value = filter_expr
+    ^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-28 19:04:06,222 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:04:07,961 - INFO - info
+2025-04-28 19:04:07,961 - WARNING - warning
+2025-04-28 19:04:07,961 - ERROR - error
+2025-04-28 19:04:07,961 - CRITICAL - criticals
+2025-04-28 19:05:06,403 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:05:08,118 - INFO - info
+2025-04-28 19:05:08,124 - WARNING - warning
+2025-04-28 19:05:08,125 - ERROR - error
+2025-04-28 19:05:08,125 - CRITICAL - criticals
+2025-04-28 19:05:20,380 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:05:22,224 - INFO - info
+2025-04-28 19:05:22,225 - WARNING - warning
+2025-04-28 19:05:22,225 - ERROR - error
+2025-04-28 19:05:22,225 - CRITICAL - criticals
+2025-04-28 19:06:02,845 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:06:04,551 - INFO - info
+2025-04-28 19:06:04,552 - WARNING - warning
+2025-04-28 19:06:04,552 - ERROR - error
+2025-04-28 19:06:04,552 - CRITICAL - criticals
+2025-04-28 19:06:15,689 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:06:17,382 - INFO - info
+2025-04-28 19:06:17,382 - WARNING - warning
+2025-04-28 19:06:17,382 - ERROR - error
+2025-04-28 19:06:17,382 - CRITICAL - criticals
+2025-04-28 19:06:23,704 - ERROR - Internal Server Error: /manage_transactions
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 219, in manage_transaction
+    user_name = User.objects.get(request.user.username)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1488, in build_filter
+    arg, value = filter_expr
+    ^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)
+2025-04-28 19:07:05,662 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:07:07,113 - INFO - info
+2025-04-28 19:07:07,113 - WARNING - warning
+2025-04-28 19:07:07,113 - ERROR - error
+2025-04-28 19:07:07,113 - CRITICAL - criticals
+2025-04-28 19:07:08,806 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:07:10,496 - INFO - info
+2025-04-28 19:07:10,496 - WARNING - warning
+2025-04-28 19:07:10,496 - ERROR - error
+2025-04-28 19:07:10,496 - CRITICAL - criticals
+2025-04-28 19:07:38,510 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:07:40,173 - INFO - info
+2025-04-28 19:07:40,173 - WARNING - warning
+2025-04-28 19:07:40,173 - ERROR - error
+2025-04-28 19:07:40,173 - CRITICAL - criticals
+2025-04-28 19:09:13,094 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:09:14,631 - INFO - info
+2025-04-28 19:09:14,631 - WARNING - warning
+2025-04-28 19:09:14,631 - ERROR - error
+2025-04-28 19:09:14,631 - CRITICAL - criticals
+2025-04-28 19:09:17,311 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:09:19,102 - INFO - info
+2025-04-28 19:09:19,102 - WARNING - warning
+2025-04-28 19:09:19,102 - ERROR - error
+2025-04-28 19:09:19,102 - CRITICAL - criticals
+2025-04-28 19:09:51,211 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:09:52,958 - INFO - info
+2025-04-28 19:09:52,958 - WARNING - warning
+2025-04-28 19:09:52,958 - ERROR - error
+2025-04-28 19:09:52,958 - CRITICAL - criticals
+2025-04-28 19:09:54,639 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:09:56,475 - INFO - info
+2025-04-28 19:09:56,475 - WARNING - warning
+2025-04-28 19:09:56,475 - ERROR - error
+2025-04-28 19:09:56,475 - CRITICAL - criticals
+2025-04-28 19:10:11,789 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:10:13,594 - INFO - info
+2025-04-28 19:10:13,594 - WARNING - warning
+2025-04-28 19:10:13,594 - ERROR - error
+2025-04-28 19:10:13,594 - CRITICAL - criticals
+2025-04-28 19:10:31,049 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:10:33,032 - INFO - info
+2025-04-28 19:10:33,033 - WARNING - warning
+2025-04-28 19:10:33,033 - ERROR - error
+2025-04-28 19:10:33,033 - CRITICAL - criticals
+2025-04-28 19:10:53,628 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:10:55,510 - INFO - info
+2025-04-28 19:10:55,511 - WARNING - warning
+2025-04-28 19:10:55,511 - ERROR - error
+2025-04-28 19:10:55,511 - CRITICAL - criticals
+2025-04-28 19:11:03,581 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:11:05,625 - INFO - info
+2025-04-28 19:11:05,625 - WARNING - warning
+2025-04-28 19:11:05,625 - ERROR - error
+2025-04-28 19:11:05,625 - CRITICAL - criticals
+2025-04-28 19:12:43,529 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:12:44,868 - INFO - info
+2025-04-28 19:12:44,868 - WARNING - warning
+2025-04-28 19:12:44,868 - ERROR - error
+2025-04-28 19:12:44,868 - CRITICAL - criticals
+2025-04-28 19:12:52,817 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:12:54,532 - INFO - info
+2025-04-28 19:12:54,532 - WARNING - warning
+2025-04-28 19:12:54,532 - ERROR - error
+2025-04-28 19:12:54,532 - CRITICAL - criticals
+2025-04-28 19:15:05,102 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:15:43,540 - INFO - info
+2025-04-28 19:15:43,540 - WARNING - warning
+2025-04-28 19:15:43,540 - ERROR - error
+2025-04-28 19:15:43,540 - CRITICAL - criticals
+2025-04-28 19:16:07,397 - ERROR - Internal Server Error: /manage_transactions
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 221, in manage_transaction
+    amount = float(request.POST.get("amount"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2025-04-28 19:17:37,648 - ERROR - Internal Server Error: /manage_transactions
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 221, in manage_transaction
+    amount = float(request.POST.get("amount"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+2025-04-28 19:17:43,954 - WARNING - Not Found: /favicon.ico
+2025-04-28 19:18:01,054 - ERROR - Error checking if transaction exists: Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'salary'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 265, in manage_transaction
+    existing_transaction = Transaction.objects.filter(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'salary'.
+
+2025-04-28 19:18:01,062 - ERROR - Error creating transaction: Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 276, in manage_transaction
+    Transaction.objects.create(
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'salary'": "Transaction.category" must be a "Category" instance.
+
+2025-04-28 19:18:01,097 - ERROR - Internal Server Error: /manage_transactions
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 290, in manage_transaction
+    return redirect("finance:home")
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' with no arguments not found. 1 pattern(s) tried: ['home/(?P<name>[^/]+)\\Z']
+2025-04-28 19:18:55,366 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:18:57,146 - INFO - info
+2025-04-28 19:18:57,146 - WARNING - warning
+2025-04-28 19:18:57,146 - ERROR - error
+2025-04-28 19:18:57,146 - CRITICAL - criticals
+2025-04-28 19:19:03,026 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:19:04,852 - INFO - info
+2025-04-28 19:19:04,852 - WARNING - warning
+2025-04-28 19:19:04,852 - ERROR - error
+2025-04-28 19:19:04,852 - CRITICAL - criticals
+2025-04-28 19:19:12,848 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:19:14,783 - INFO - info
+2025-04-28 19:19:14,784 - WARNING - warning
+2025-04-28 19:19:14,784 - ERROR - error
+2025-04-28 19:19:14,784 - CRITICAL - criticals
+2025-04-28 19:19:16,710 - ERROR - Error checking if transaction exists: Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'salary'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 265, in manage_transaction
+    existing_transaction = Transaction.objects.filter(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'salary'.
+
+2025-04-28 19:19:16,712 - ERROR - Error creating transaction: Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 276, in manage_transaction
+    Transaction.objects.create(
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'salary'": "Transaction.category" must be a "Category" instance.
+
+2025-04-28 19:19:16,758 - ERROR - Internal Server Error: /manage_transactions
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 290, in manage_transaction
+    return redirect("finance:home")
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' with no arguments not found. 1 pattern(s) tried: ['home/(?P<name>[^/]+)\\Z']
+2025-04-28 19:19:47,767 - ERROR - Error checking if transaction exists: Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'salary'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 265, in manage_transaction
+    existing_transaction = Transaction.objects.filter(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'salary'.
+
+2025-04-28 19:19:47,768 - ERROR - Error creating transaction: Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 276, in manage_transaction
+    Transaction.objects.create(
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'salary'": "Transaction.category" must be a "Category" instance.
+
+2025-04-28 19:19:47,797 - ERROR - Internal Server Error: /manage_transactions
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 290, in manage_transaction
+    return redirect("finance:home")
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' with no arguments not found. 1 pattern(s) tried: ['home/(?P<name>[^/]+)\\Z']
+2025-04-28 19:20:49,569 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:20:51,264 - INFO - info
+2025-04-28 19:20:51,264 - WARNING - warning
+2025-04-28 19:20:51,264 - ERROR - error
+2025-04-28 19:20:51,264 - CRITICAL - criticals
+2025-04-28 19:20:52,439 - ERROR - Error checking if transaction exists: Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'salary'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 265, in manage_transaction
+    existing_transaction = Transaction.objects.filter(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'salary'.
+
+2025-04-28 19:20:52,442 - ERROR - Error creating transaction: Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 276, in manage_transaction
+    Transaction.objects.create(
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'salary'": "Transaction.category" must be a "Category" instance.
+
+2025-04-28 19:20:52,483 - ERROR - Internal Server Error: /manage_transactions
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 290, in manage_transaction
+    return redirect("finance:home")
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' with no arguments not found. 1 pattern(s) tried: ['home/(?P<name>[^/]+)\\Z']
+2025-04-28 19:23:50,557 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:23:52,326 - INFO - info
+2025-04-28 19:23:52,326 - WARNING - warning
+2025-04-28 19:23:52,326 - ERROR - error
+2025-04-28 19:23:52,326 - CRITICAL - criticals
+2025-04-28 19:24:26,481 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:24:28,211 - INFO - info
+2025-04-28 19:24:28,211 - WARNING - warning
+2025-04-28 19:24:28,211 - ERROR - error
+2025-04-28 19:24:28,211 - CRITICAL - criticals
+2025-04-28 19:24:29,911 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:24:31,454 - INFO - info
+2025-04-28 19:24:31,454 - WARNING - warning
+2025-04-28 19:24:31,454 - ERROR - error
+2025-04-28 19:24:31,454 - CRITICAL - criticals
+2025-04-28 19:24:35,864 - ERROR - Error checking if transaction exists: Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'salary'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 265, in manage_transaction
+    existing_transaction = Transaction.objects.filter(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'salary'.
+
+2025-04-28 19:24:35,872 - ERROR - Error creating transaction: Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 276, in manage_transaction
+    Transaction.objects.create(
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'salary'": "Transaction.category" must be a "Category" instance.
+
+2025-04-28 19:25:03,586 - ERROR - Error checking if transaction exists: Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'salary'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 265, in manage_transaction
+    existing_transaction = Transaction.objects.filter(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'salary'.
+
+2025-04-28 19:25:03,588 - ERROR - Error creating transaction: Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 276, in manage_transaction
+    Transaction.objects.create(
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'salary'": "Transaction.category" must be a "Category" instance.
+
+2025-04-28 19:25:10,810 - WARNING - Not Found: /favicon.ico
+2025-04-28 19:26:11,311 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:26:13,076 - INFO - info
+2025-04-28 19:26:13,076 - WARNING - warning
+2025-04-28 19:26:13,076 - ERROR - error
+2025-04-28 19:26:13,076 - CRITICAL - criticals
+2025-04-28 19:26:16,890 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:26:18,442 - INFO - info
+2025-04-28 19:26:18,442 - WARNING - warning
+2025-04-28 19:26:18,442 - ERROR - error
+2025-04-28 19:26:18,442 - CRITICAL - criticals
+2025-04-28 19:26:23,626 - WARNING - Not Found: /favicon.ico
+2025-04-28 19:26:41,674 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:26:43,229 - INFO - info
+2025-04-28 19:26:43,233 - WARNING - warning
+2025-04-28 19:26:43,233 - ERROR - error
+2025-04-28 19:26:43,233 - CRITICAL - criticals
+2025-04-28 19:26:52,315 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:26:53,822 - INFO - info
+2025-04-28 19:26:53,822 - WARNING - warning
+2025-04-28 19:26:53,822 - ERROR - error
+2025-04-28 19:26:53,822 - CRITICAL - criticals
+2025-04-28 19:28:20,421 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:28:22,050 - INFO - info
+2025-04-28 19:28:22,050 - WARNING - warning
+2025-04-28 19:28:22,050 - ERROR - error
+2025-04-28 19:28:22,050 - CRITICAL - criticals
+2025-04-28 19:35:36,082 - ERROR - Error checking if transaction exists: Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'rent'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 265, in manage_transaction
+    existing_transaction = Transaction.objects.filter(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'rent'.
+
+2025-04-28 19:35:36,087 - ERROR - Error creating transaction: Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 276, in manage_transaction
+    Transaction.objects.create(
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'rent'": "Transaction.category" must be a "Category" instance.
+
+2025-04-28 19:35:43,278 - WARNING - Not Found: /favicon.ico
+2025-04-28 19:36:51,089 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:36:52,832 - INFO - info
+2025-04-28 19:36:52,832 - WARNING - warning
+2025-04-28 19:36:52,832 - ERROR - error
+2025-04-28 19:36:52,832 - CRITICAL - criticals
+2025-04-28 19:45:01,571 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:45:03,224 - INFO - info
+2025-04-28 19:45:03,224 - WARNING - warning
+2025-04-28 19:45:03,224 - ERROR - error
+2025-04-28 19:45:03,224 - CRITICAL - criticals
+2025-04-28 19:45:19,544 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:45:21,425 - INFO - info
+2025-04-28 19:45:21,425 - WARNING - warning
+2025-04-28 19:45:21,425 - ERROR - error
+2025-04-28 19:45:21,425 - CRITICAL - criticals
+2025-04-28 19:45:45,856 - ERROR - Error checking if transaction exists: Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'salary'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 266, in manage_transaction
+    existing_transaction = Transaction.objects.filter(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'salary'.
+
+2025-04-28 19:45:45,862 - ERROR - Error creating transaction: Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 277, in manage_transaction
+    Transaction.objects.create(
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'salary'": "Transaction.category" must be a "Category" instance.
+
+2025-04-28 19:45:45,887 - ERROR - Internal Server Error: /manage_transactions
+Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view finance.views.manage_transaction didn't return an HttpResponse object. It returned None instead.
+2025-04-28 19:46:19,091 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:46:20,655 - INFO - info
+2025-04-28 19:46:20,655 - WARNING - warning
+2025-04-28 19:46:20,655 - ERROR - error
+2025-04-28 19:46:20,655 - CRITICAL - criticals
+2025-04-28 19:46:29,065 - WARNING - Not Found: /favicon.ico
+2025-04-28 19:46:35,717 - WARNING - Not Found: /favicon.ico
+2025-04-28 19:46:55,527 - ERROR - Error checking if transaction exists: Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'salary'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 266, in manage_transaction
+    existing_transaction = Transaction.objects.filter(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'salary'.
+
+2025-04-28 19:46:55,532 - ERROR - Error creating transaction: Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 277, in manage_transaction
+    Transaction.objects.create(
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'salary'": "Transaction.category" must be a "Category" instance.
+
+2025-04-28 19:48:04,905 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 19:48:06,457 - INFO - info
+2025-04-28 19:48:06,457 - WARNING - warning
+2025-04-28 19:48:06,457 - ERROR - error
+2025-04-28 19:48:06,458 - CRITICAL - criticals
+2025-04-28 19:48:09,839 - WARNING - Not Found: /favicon.ico
+2025-04-28 19:48:33,015 - ERROR - Error checking if transaction exists: Traceback (most recent call last):
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'salary'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 271, in manage_transaction
+    existing_transaction = Transaction.objects.filter(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_lookups.py", line 156, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'salary'.
+
+2025-04-28 19:48:33,020 - ERROR - Error creating transaction: Traceback (most recent call last):
+  File "C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py", line 282, in manage_transaction
+    Transaction.objects.create(
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\query.py", line 677, in create
+    obj = self.model(**kwargs)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\base.py", line 543, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "C:\Users\dipak\anaconda3\Lib\site-packages\django\db\models\fields\related_descriptors.py", line 287, in __set__
+    raise ValueError(
+ValueError: Cannot assign "'salary'": "Transaction.category" must be a "Category" instance.
+
+2025-04-28 21:14:44,014 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-04-28 21:14:46,154 - INFO - info
+2025-04-28 21:14:46,154 - WARNING - warning
+2025-04-28 21:14:46,154 - ERROR - error
+2025-04-28 21:14:46,154 - CRITICAL - criticals
+2025-04-28 21:17:03,972 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-05-01 11:50:20,499 - INFO - info
+2025-05-01 11:50:20,499 - WARNING - warning
+2025-05-01 11:50:20,499 - ERROR - error
+2025-05-01 11:50:20,499 - CRITICAL - criticals
+2025-05-01 11:50:21,990 - WARNING - Not Found: /
+2025-05-01 11:50:22,234 - WARNING - Not Found: /favicon.ico
+2025-05-01 11:50:29,708 - WARNING - Not Found: /home
+2025-05-01 11:50:33,000 - WARNING - Not Found: /home/
+2025-05-01 11:59:30,536 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-05-01 11:59:32,240 - INFO - info
+2025-05-01 11:59:32,240 - WARNING - warning
+2025-05-01 11:59:32,240 - ERROR - error
+2025-05-01 11:59:32,240 - CRITICAL - criticals
+2025-05-01 12:01:14,517 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-05-01 12:02:43,095 - INFO - info
+2025-05-01 12:02:43,095 - WARNING - warning
+2025-05-01 12:02:43,095 - ERROR - error
+2025-05-01 12:02:43,095 - CRITICAL - criticals
+2025-05-01 12:02:58,985 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-05-01 12:03:00,737 - INFO - info
+2025-05-01 12:03:00,737 - WARNING - warning
+2025-05-01 12:03:00,737 - ERROR - error
+2025-05-01 12:03:00,737 - CRITICAL - criticals
+2025-05-01 12:03:08,474 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-05-01 12:03:10,078 - INFO - info
+2025-05-01 12:03:10,078 - WARNING - warning
+2025-05-01 12:03:10,078 - ERROR - error
+2025-05-01 12:03:10,078 - CRITICAL - criticals
+2025-05-01 12:03:13,637 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-05-01 12:03:15,169 - INFO - info
+2025-05-01 12:03:15,169 - WARNING - warning
+2025-05-01 12:03:15,169 - ERROR - error
+2025-05-01 12:03:15,169 - CRITICAL - criticals
+2025-05-01 12:03:18,730 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-05-01 12:03:20,352 - INFO - info
+2025-05-01 12:03:20,352 - WARNING - warning
+2025-05-01 12:03:20,352 - ERROR - error
+2025-05-01 12:03:20,352 - CRITICAL - criticals
+2025-05-01 12:04:09,107 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-05-01 12:04:10,667 - INFO - info
+2025-05-01 12:04:10,667 - WARNING - warning
+2025-05-01 12:04:10,667 - ERROR - error
+2025-05-01 12:04:10,667 - CRITICAL - criticals
+2025-05-01 12:04:12,163 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-05-01 12:04:13,726 - INFO - info
+2025-05-01 12:04:13,726 - WARNING - warning
+2025-05-01 12:04:13,726 - ERROR - error
+2025-05-01 12:04:13,726 - CRITICAL - criticals
+2025-05-01 12:04:15,213 - INFO - C:\Users\dipak\OneDrive\Desktop\chat_dj_pro\level_one_three\finance_tracker\personal_finance_tracker\finance\views.py changed, reloading.
+2025-05-01 12:04:16,755 - INFO - info
+2025-05-01 12:04:16,755 - WARNING - warning
+2025-05-01 12:04:16,756 - ERROR - error
+2025-05-01 12:04:16,756 - CRITICAL - criticals
